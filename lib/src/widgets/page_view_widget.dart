@@ -22,7 +22,7 @@ class HorizontalPageView extends StatelessWidget {
   Widget build(BuildContext context) {
     final _screenSize = MediaQuery.of(context).size;
     final _cardSize = _screenSize.height * percentHeight;
-    final _containerSize = _cardSize + 60.0;
+    final _containerSize = _cardSize + 60.0; //espacio para el titutlo
 
     _pageController.addListener(() {
       if (_pageController.position.pixels >=

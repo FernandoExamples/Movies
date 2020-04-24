@@ -54,11 +54,12 @@ class SearchData extends SearchDelegate {
 
   @override
   Widget buildResults(BuildContext context) {
-    //crea los resultados que vamos a mostrar
+    //crea los resultados que vamos a mostrar. 
+    //se invoca solo al llamar al metodo showResults()
     // return Center(
     //   child: Container(
     //     height: 100.0,
-    //     child: Text(_selection),
+    //     child: Text('Hola Mundo'),
     //     color: Colors.amberAccent,
     //   ),
     // );
@@ -115,6 +116,7 @@ class SearchData extends SearchDelegate {
     // close(context, null);
     movie.uniqueId = '';
     Navigator.pushNamed(context, 'details', arguments: movie);
+    // showResults(context);
   }
 
 //Codigo de ejemplo 
