@@ -16,4 +16,5 @@ Estos son algunos de los temas principales de la sección:
 - Infinite Horizontal Scroll
 - SearchDelegate
 - Hero Animation
+- Swiper 
 
